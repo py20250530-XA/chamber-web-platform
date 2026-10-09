@@ -1,0 +1,13 @@
+{
+  "name": "chamber-digital-services-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "商会数字服务Web平台静态前端",
+  "scripts": {
+    "build": "tailwindcss -i ./styles.css -o ./tailwind.css --minify",
+    "start": "node preview.mjs",
+    "check": "node --check app.js && node --check preview.mjs"
+  },
+  "devDependencies": { "tailwindcss": "3.4.19" },
+  "engines": { "node": ">=18" }
+}
